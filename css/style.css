@@ -613,7 +613,7 @@ a {
   }
 }
 
-@media(max-width: 860px) {
+@media(max-width: 862px) {
   .company-offer__title {
     font-size: 45px;
   }
