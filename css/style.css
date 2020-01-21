@@ -231,23 +231,35 @@ a {
 
 .transportation-offer {
   position: sticky;
+  padding-top: 156px;
 }
 
-.transportation-offer__img {
-  display: block;
-}
-
-.transportation-offer__img_next {
-  margin-top: 156px;
+.transportation-offer__next {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 245px;
+  align-items: center;
 }
 
-.transportation-offer__img_back_mobil {
-  display: none;
+.transportation-offer__text {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #C8A35F;
 }
 
-.transportation-offer__img_next_mobil {
-  display: none;
+.transportation-offer__text_right {
+  margin-right: 35px;
+}
+
+.transportation-offer__text_left {
+  margin-left: 35px;
+}
+
+.transportation-offer__back {
+  display: flex;
+  align-items: center;
 }
 
 /* SERVICES */
@@ -426,6 +438,7 @@ a {
 .company-info__img {
   width: 200px;
   border: 0.25px solid #C8A35F;
+  box-sizing: border-box;
 }
 
 /* MAP */

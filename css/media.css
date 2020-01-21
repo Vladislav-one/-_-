@@ -210,17 +210,16 @@
   .company-info__img {
     width: 225px;
   }
-  .company-info__our-img {
+  .company-info__img_pc {
     display: none;
   }
   .footer__inner {
     display: block;
   }
   .footer__img {
-    margin-right: 0;
     display: block;
     margin: 0 auto;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
   }
   .footer__number-text {
     margin-bottom: 25px;
@@ -243,14 +242,15 @@
     flex-flow: wrap;
     margin: 0 auto;
     margin-top: 40px;
-    width: 75%;
+    width: 100%;
     justify-content: space-between;
+    padding-top: 0;
   }
   .transportation-offer__img_back_mobil {
     margin: 0;
     margin-right: 60px;
   }
-  .transportation-offer__img_next {
+  .transportation-offer__next {
     margin: 0;
     order: 2;
   }
@@ -367,6 +367,12 @@
     margin-left: 5%;
     margin-right: 5%;
   }
+  .transportation-offer__text {
+    font-size: 15px;
+  }
+  .transportation-offer__img {
+    width: 65px;
+  }
 }
 
 @media(max-width: 430px) {
@@ -376,9 +382,6 @@
   .company-inner__menu {
     width: 100%;
     justify-content: space-between;
-  }
-  .transportation-offer__img {
-    width: 145px;
   }
   .b-center {
     height: 1420px;
@@ -430,9 +433,6 @@
   .transportation-inner__btn {
     font-size: 14px;
   }
-  .transportation-offer__img {
-    width: 135px;
-  }
   .services__title {
     font-size: 30px;
   }
@@ -447,5 +447,17 @@
   }
   .footer__our {
     font-size: 15px;
+  }
+  .transportation-offer__img {
+    width: 50px;
+  }
+  .transportation-offer__text {
+    font-size: 14px;
+  }
+  .transportation-offer__text_right {
+    margin-right: 25px;
+  }
+  .transportation-offer__text_left {
+    margin-left: 25px;
   }
 }
