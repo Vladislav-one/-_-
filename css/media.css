@@ -138,7 +138,7 @@
   }
   .company-inner__menu {
     margin: 0 auto;
-    margin-top: 40px;
+    padding-top: 40px;
     width: 90%;
     justify-content: space-around;
   }
