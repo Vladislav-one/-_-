@@ -1,3 +1,9 @@
+@media(max-width: 1917px) {
+  .services__item {
+    width: 275px;
+  }
+}
+
 @media(max-width: 1910px) {
   .services__item {
     margin-bottom: 15px;
