@@ -70,7 +70,7 @@ describe("Functions", function() {
       });
     }
 
-    makeTest([123, 243, 435, "ложное значение", "еще одно"] );
+    makeTest([NaN, 243, 0, 435, NaN, undefined, null, ""]);
   });
 
   describe("findStr", function() {
