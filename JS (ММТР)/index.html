@@ -93,7 +93,7 @@
 
       arr.forEach(function(item) {
         console.log(item)
-        if (item !== 0 && item !== "" && item !== null && item !== undefined && !isNaN(item)) {
+        if (item !== 0 && item !== "" && item !== false && item !== null && item !== undefined && !isNaN(item)) {
           arr2.push(item);
         }
       });
